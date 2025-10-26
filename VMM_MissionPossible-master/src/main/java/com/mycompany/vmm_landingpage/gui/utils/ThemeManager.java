@@ -211,6 +211,10 @@ public class ThemeManager {
         return darkMode ? VMM_Black : VMM_White;
     }
     
+    public Color getVmmRed() {
+        return VMM_Red;
+    }
+    
     public Color getVmmGreen() {
         return VMM_Green;
     }

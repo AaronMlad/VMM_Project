@@ -4,7 +4,7 @@
 
 package com.mycompany.vmm_landingpage;
 
-import com.mycompany.vmm_landingpage.gui.CurrentFrame;
+import com.mycompany.vmm_landingpage.gui.ToDoApp;
 import javax.swing.SwingUtilities;
 import javax.swing.UIManager;
 
@@ -21,8 +21,9 @@ public class VMM_LandingPage{
             }catch(Exception ex){
                 ex.printStackTrace();
             }
-            CurrentFrame currentFrame = new CurrentFrame();
-            currentFrame.setVisible(true);
+
+            ToDoApp todoApp = new ToDoApp();
+            todoApp.setVisible(true);
         });
     }
 }

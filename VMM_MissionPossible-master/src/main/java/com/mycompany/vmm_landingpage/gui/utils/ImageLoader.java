@@ -18,6 +18,8 @@ public class ImageLoader {
     private ImageIcon InstagramIcon = new ImageIcon("src\\main\\resources\\1658587303instagram-png.png");
     private ImageIcon Logo = new ImageIcon("src\\main\\resources\\MP_Logo.png");
     private ImageIcon NoteTaking = new ImageIcon("src\\main\\resources\\notetaking.jpeg");
+    private ImageIcon UserIcon = new ImageIcon("src\\main\\resources\\user.png");
+    private ImageIcon MenuIcon = new ImageIcon("src\\main\\resources\\menu.png");
     
     private ImageLoader(){
     }
@@ -43,5 +45,11 @@ public class ImageLoader {
     }
     public ImageIcon getNote() {
         return NoteTaking;
+    }
+    public ImageIcon getUserIcon() {
+        return UserIcon;
+    }
+    public ImageIcon getMenuIcon() {
+        return MenuIcon;
     }
 }

@@ -16,7 +16,7 @@ import javax.swing.JPanel;
  *
  * @author lenovo
  */
-public class Start extends JPanel{
+public class Start extends JPanel{ // Landing
     private CardLayout cardLayout;
     private JPanel mainPanel;
 
